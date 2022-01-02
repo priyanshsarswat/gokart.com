@@ -24,5 +24,8 @@ def else2():
 @app.route("/dice")
 def roll():
     return(random.choice('\u2680''\u2681''\u2682''\u2683''\u2684''\u2685'))
+@app.errorhandler(404)
+def error(e):
+    return render_template("index.html")
 if __name__ == "__main__":
     app.run(debug=True)
