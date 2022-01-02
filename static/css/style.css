@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+    background-color: aqua;
+    border: bisque;
+    size-adjust: mid 100px;
+    text-emphasis-color: 200px;
+    user-select: text;
+    cursor: -webkit-grab;
+    empty-cells: show;
+    box-sizing: initial 50px;
+}
